@@ -1,0 +1,43 @@
+.rollInRight {
+  -webkit-animation-name: rollInRight;
+  animation-name: rollInRight;
+  -webkit-animation-duration: .9s;
+  animation-duration: 2.5s;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+@-webkit-keyframes rollInRight {
+  0% {
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -webkit-transform: translateX(400px) rotate(-445deg);
+    transform: translateX(400px) rotate(-445deg);
+    opacity: 0; }
+  30% {
+    opacity: 1; }
+  50% {
+    -webkit-transform: translateX(-20px) rotate(-20deg);
+    transform: translateX(-20px) rotate(-20deg); }
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg); } }
+
+@keyframes rollInRight {
+  0% {
+    -webkit-animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -webkit-transform: translateX(400px) rotate(-445deg);
+    transform: translateX(400px) rotate(-445deg);
+    opacity: 0; }
+  30% {
+    opacity: 1; }
+  50% {
+    -webkit-transform: translateX(-20px) rotate(-20deg);
+    transform: translateX(-20px) rotate(-20deg); }
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    -webkit-transform: translateX(0) rotate(0deg);
+    transform: translateX(0) rotate(0deg); } }
