@@ -1,0 +1,57 @@
+html {
+  background: white;
+}
+.container {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fotoValean {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 35px solid rgb(243, 165, 5, 0.9);
+}
+.valeanJPG {
+width: auto;
+height: 100%;
+margin: 0 auto;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #4CAF50;
+    background-color: #C8E6C9;
+}
+
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+
+.tab button:hover {
+    background-color: #FFEB3B;
+}
+
+
+.tab button.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #4CAF50;
+    border-top: none;
+}
