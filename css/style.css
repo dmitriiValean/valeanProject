@@ -11,17 +11,13 @@ html {
   align-items: center;
 }
 .fotoValean {
-  width: 400px;
-  height: 400px;
+  width: 100px;
+  height: 100px;
   margin: 0 auto;
   border-radius: 50%;
-  overflow: hidden;
-  border: 35px solid rgb(243, 165, 5, 0.9);
-}
-.valeanJPG {
-width: auto;
-height: 100%;
-margin: 0 auto;
+  /* overflow: hidden; */
+  border: 15px solid rgb(243, 165, 5, 1.5);
+  background: url('../media/home/val.jpg') center/135% auto;
 }
 .tab {
     overflow: hidden;
