@@ -5,11 +5,12 @@ html {
   background: white;
 }
 .container {
-  height: 700px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .fotoValean {
   width: 100px;
   height: 100px;
@@ -18,39 +19,11 @@ html {
   /* overflow: hidden; */
   border: 15px solid rgb(243, 165, 5, 1.5);
   background: url('../media/home/val.jpg') center/135% auto;
-}
-.tab {
-    overflow: hidden;
-    border: 1px solid #4CAF50;
-    background-color: #C8E6C9;
+  position: absolute;
 }
 
 
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-}
 
 
-.tab button:hover {
-    background-color: #FFEB3B;
-}
 
 
-.tab button.active {
-    background-color: #4CAF50;
-    color: #fff;
-}
-
-
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #4CAF50;
-    border-top: none;
-}

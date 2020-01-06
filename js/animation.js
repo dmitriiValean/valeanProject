@@ -1,10 +1,18 @@
 let fotoValean = document.querySelector(".fotoValean");
-console.log(fotoValean);
+let menuLi = document.querySelectorAll("li");
 
-function animateFotoValean() {
-    fotoValean.style.width = "400px";
-    fotoValean.style.height = "400px";
-    fotoValean.style.transition = "1s";
-    fotoValean.style.border = "35px solid rgb(243, 165, 5, 1.5)";
-};
-setTimeout(animateFotoValean, 1600);
+
+setTimeout(function animateFotoValean() {
+    fotoValean.setAttribute("style", "width: 350px; height: 350px; transition: 1s; border: 25px solid rgb(243, 165, 5, 1.5) ")
+}, 1600);
+
+setTimeout(function animateMenuLi() {
+    let i;
+    for (i = 0; i < menuLi.length; i++) {
+        (function (i) {
+            setTimeout(function () {
+                menuLi[i].style.display = "block";
+            }, 500 * i + 1);
+        })(i);
+    }
+}, 2900);
