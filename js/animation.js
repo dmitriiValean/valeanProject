@@ -3,7 +3,7 @@ let menuLi = document.querySelectorAll("li");
 
 
 setTimeout(function animateFotoValean() {
-    fotoValean.setAttribute("style", "width: 350px; height: 350px; transition: 1s; border: 25px solid rgb(243, 165, 5, 1.5) ")
+    fotoValean.setAttribute("style", "width: 350px; height: 350px; transition: 1s; border: 20px solid rgb(243, 165, 5, 1.5) ")
 }, 1600);
 
 setTimeout(function animateMenuLi() {
@@ -16,3 +16,9 @@ setTimeout(function animateMenuLi() {
         })(i);
     }
 }, 2900);
+
+console.log(menuLi)
+
+menuLi[1].addEventListener('click', function(event) {
+
+});

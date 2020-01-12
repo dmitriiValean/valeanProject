@@ -16,8 +16,7 @@ html {
   height: 100px;
   margin: 0 auto;
   border-radius: 50%;
-  /* overflow: hidden; */
-  border: 15px solid rgb(243, 165, 5, 1.5);
+  border: 10px solid rgb(243, 165, 5, 1.5);
   background: url('../media/home/val.jpg') center/135% auto;
   position: absolute;
 }
